@@ -126,16 +126,16 @@ const Home = (props) => {
                                     (<div className="info">
                                         <h1>{starship[valor].name}</h1>
                                         <h3>Model: {starship[valor].model}</h3>
-                                        <h3>Manufacturer: {starship[valor].manufacture}</h3>
+                                        <h3>Manufacturer: {starship[valor].manufacturer}</h3>
                                         <h3>Cost in Credits: {starship[valor].cost_in_credits}</h3>
                                         <h3>Length: {starship[valor].length}</h3>
-                                        <h3>Max atmosfering speed: {starship[valor].max_atmosfering_speed}</h3>
+                                        <h3>Max atmosphering speed: {starship[valor].max_atmosphering_speed}</h3>
                                         <h3>Crew: {starship[valor].crew}</h3>
                                         <h3>Passengers: {starship[valor].passengers}</h3>
                                         <h3>Cargo capacity: {starship[valor].cargo_capacity}</h3>
                                         <h3>Consumables: {starship[valor].consumables}</h3>
                                         <h3>Hyperdrive rating: {starship[valor].hyperdrive_rating}</h3>
-                                        <h3>MGLT: {starship.mglt}</h3>
+                                        <h3>MGLT: {starship[valor].MGLT}</h3>
                                         <h3>Starship Class: {starship[valor].starship_class}</h3>
                                     </div>)
                                     :(
@@ -144,10 +144,10 @@ const Home = (props) => {
                                             (<div className="info">
                                                 <h1>{vehicles[valor].name}</h1>
                                                 <h3>Model: {vehicles[valor].model}</h3>
-                                                <h3>Manufacturer: {vehicles[valor].manufacture}</h3>
+                                                <h3>Manufacturer: {vehicles[valor].manufacturer}</h3>
                                                 <h3>Cost in Credits: {vehicles[valor].cost_in_credits}</h3>
                                                 <h3>Length: {vehicles[valor].length}</h3>
-                                                <h3>Max atmosfering speed: {vehicles[valor].max_atmosfering_speed}</h3>
+                                                <h3>Max atmosphering speed: {vehicles[valor].max_atmosphering_speed}</h3>
                                                 <h3>Crew: {vehicles[valor].crew}</h3>
                                                 <h3>Passengers: {vehicles[valor].passengers}</h3>
                                                 <h3>Cargo capacity: {vehicles[valor].cargo_capacity}</h3>
