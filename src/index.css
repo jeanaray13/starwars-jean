@@ -1,3 +1,4 @@
+/*---------------Configuración inicial-------------------*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,158 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/*---------------Menú principal----------------*/
+.menu{
+  margin-top: 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content:baseline;
+  width: auto;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+/*----------Sección izquierda--------------*/
+.menu_izq{
+  display: flex;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+
+/*Label: Search for*/
+.search_for{
+  margin-top: 12px;
+  margin-right: 20px;
+}
+
+/*Checkbox*/
+.selector{
+  width: 150px;
+}
+
+.select_field{
+  padding-left: 5px;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  box-sizing: border-box;
+  background: rgb(23, 9, 87);
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select_field .img_arrow{
+  width: 20px;
+  height: 20px;
+}
+
+.img_user{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*Options*/
+.list{
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid rgb(23, 9, 87);
+  padding-left: 0;
+}
+
+.opciones{
+  color: rgb(23, 9, 87);
+  background: white;
+  border-radius: 5px;
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  box-sizing: border-box;
+  justify-content:baseline;
+}
+
+.opciones .img_user{
+  margin: 13px 10px 0 15px;
+}
+
+.opciones:hover{
+  background: rgb(23, 9, 87);
+  color: white;
+}
+
+/*Visibilidad de las opciones*/
+#hide{
+  visibility:hidden;
+}
+
+/*---------------Sección Derecha-------------*/
+.menu_cen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -310px;
+  margin-left: 50px;
+}
+
+/*Label: ID*/
+.id{
+  padding-left: 10px;
+  width: 25%;
+}
+
+/*TextBox: ID*/
+.txt_id{
+  text-align: center;
+  width: 50%;
+}
+
+/*Button: Search*/
+.search{
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: rgb(74, 76, 78);
+  width: 150px;
+}
+
+.search:hover{
+  background-color: black;
+  color: white;
+}
+
+/*------------Información----------*/
+.tbl_info{
+  font-size: 14px;
+  margin-top: -200px;
+  text-align: center;
+}
+
+.info{
+  margin-left: 250px;
+  margin-right: 250px;
+  border: 1px solid black;
+}
+
+/*Visibilidad de la información*/
+#hide2{
+  visibility:hidden;
+}
+
+/*--------------Imagen de Error----------*/
+.img_error{
+  width: 90%;
 }
